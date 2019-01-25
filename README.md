@@ -25,11 +25,17 @@ To install locally, simply type
 python setup.py install --user
 ```
 
-Examples
+Tools
 --------
 
-Check out the ``example`` folder for programs that use this library to simulate 
-networks or solve the ODEs.
+This package comes with two ready-to-use tools:
+
+1. ```examples/scm_online.py``` runs of learning in SCMs in the teacher-student
+   setup; adding ```--help``` displays the available options.
+2. ```examples/scm_ode.py``` runs an integrator of the ODEs that describe online
+   learning in this setup [2,3]. Again, run ```scm_ode.py --help``` to see all
+   available options.
+
 
 Tests
 ------
