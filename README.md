@@ -5,6 +5,10 @@ This small package provides utilities to analyse online learning in neural
 networks with two fully connected networks, which are also known as Soft
 Committee Machines in the physics literature - or SCMs for short [1-3].
 
+This package was used to conduct the simulations of our 
+[recent paper](http://arxiv.org/abs/1901.09085) on the generalisation dynamics
+of online learning in two-layer neural networks [4].
+
 Contents
 ---------
 
@@ -59,3 +63,4 @@ References
 * [1] M. Biehl and H. Schwarze, J. Phys. A. Math. Gen. 28, 643 (1995).
 * [2] D. Saad and S. A. Solla, Phys. Rev. Lett. 74, 4337 (1995)
 * [3] D. Saad and S. A. Solla, Phys. Rev. E 52, 4225 (1995).
+* [4] S. Goldt, M.S. Advani, A.M. Saxe, F. Krzakala, L. Zdeborová, [arXiv:1901.09085](http://arxiv.org/abs/1901.09085)
